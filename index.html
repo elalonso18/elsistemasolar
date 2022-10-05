@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Sistema Solar</title>
+    <link rel="icon" href="pestaña.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    
+    <header>
+        <a href="#"><img src="image/logo.png" alt=""></a>
+        <nav>
+            <ul>
+                <li><a href="#fondo">Inicio</a></li>
+                <li><a href="#barra">Planetas</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main id="fondo">
+        <video src="video/Pexels Videos 1851190.mp4" muted autoplay loop></video>
+    </main>
+    <section id="barra">
+        <ul class="menu">
+            <li><a href="#mercurio">Mercurio</a></li>
+            <li><a href="#venus">Venus</a></li>
+            <li><a href="#tierra">Tierra</a></li>
+            <li><a href="#marte">Marte</a></li>
+            <li><a href="#júpiter">Júpiter</a></li>
+            <li><a href="#saturno">Saturno</a></li>
+            <li><a href="#urano">Urano</a></li>
+        </ul>
+    </section>
+    <section id="mercurio">
+        <h1>MERCURIO</h1>
+        <h2>Con un tamaño tan solo un poco mayor al de nuestra luna,<br> es el planeta más pequeño del sistema solar y el más cercano al Sol.</h2>
+    </section>
+    <section id="venus">
+        <h1>VENUS</h1>
+        <h2>Solo tras el Sol y la Luna, Venus es el objeto más brillante que se puede ver en el firmamento desde la Tierra. Esto propició, ya desde la antigüedad, que por su brillo y belleza los romanos asociaran el planeta con la diosa de la belleza y el amor, Venus, de la cual recibe su nombre.</h2>
+    </section>
+    <section id="tierra">
+        <h1>TIERRA</h1>
+        <h2>Nuestro hogar, la Tierra, es el quinto planeta más grande y el tercero en cercanía al Sol del sistema solar.</h2>
+    </section>
+    <section id="marte">
+        <h1>MARTE</h1>
+        <h2>También conocido como el planeta Rojo, es el más alejado del Sol de los cuatro planetas rocosos del sistema solar, y el segundo más cercano a la Tierra, aunque cuenta aproximadamente con solo la mitad de su tamaño. Se trata de un planeta sencillo de identificar en el firmamento nocturno debido al brillo rojizo que hace honor a su nombre.</h2>
+    </section>
+    <section id="júpiter">
+        <h1>JÚPITER</h1>
+        <h2>Es el planeta más grande del sistema solar y el quinto en orden de lejanía al Sol.Es un gigante gaseoso que forma parte de los denominados planetas exteriores. Recibe su nombre del dios romano Júpiter.</h2>
+    </section>
+    <section id="saturno">
+        <h1>SATURNO</h1>
+        <h2>Saturno es el sexto planeta en distancia al sol del sistema solar. También se trata del segundo planeta más grande</h2>
+    </section>
+    <section id="urano">
+        <h1>URANO</h1>
+        <h2>Urano es el séptimo planeta en distancia al sol, el tercero más grande, el cuarto más masivo y el segundo menos denso del sistema solar.</h2>
+    </section>
+    <footer>
+        <main>
+            <p>&copy; Hecho por Alonso Mendoza 2021-2022 SPACEX </p>
+            <div class="icon">
+                <svg heigth="80" width="80">
+                    <circle cx="40" cy="40" r=35 stroke="white" stroke-width="4" fill="none" ></circle>
+                </svg>
+                <i class='bx bxl-instagram'></i>
+            </div>
+    
+            <div class="icon">
+                <svg heigth="80" width="80">
+                    <circle cx="40" cy="40" r=35 stroke="white" stroke-width="4" fill="none" ></circle>
+                </svg>
+                <i class='bx bxl-facebook-circle'></i>
+            </div>
+    
+            <div class="icon">
+                <svg heigth="80" width="80">
+                    <circle cx="40" cy="40" r=35 stroke="white" stroke-width="4" fill="none" ></circle>
+                </svg>
+                <i class='bx bxl-whatsapp' ></i>
+            </div>
+    
+            <div class="icon">
+                <svg heigth="80" width="80">
+                    <circle cx="40" cy="40" r=35 stroke="white" stroke-width="4" fill="none" ></circle>
+                </svg>
+                <i class='bx bxl-twitter' ></i>
+                
+            </div>
+            
+        </main>
+    </footer>
+    
+    
+    
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("abajo",window.scrollY>0);
+        })
+    </script>
+</body>
+</html>

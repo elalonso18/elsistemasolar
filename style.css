@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;   
+}
+body{
+    background-color: rgb(30, 30, 30);
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 10px 10px;
+    z-index: 10;
+
+}
+header img{
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+header.abajo{
+    background: black;
+    padding: 15px 20px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    font-family: helvetica;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+
+}
+
+header.abajo .logo,
+header.abajo ul li a{
+    color: #fff;
+    
+}
+
+
+video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#barra{
+    background-color: black;
+}
+#barra .menu{
+    background: #04faee;
+    width: 42.6em;
+    max-width: 1000px;
+    margin: auto;
+    list-style: none;
+    
+}
+
+#barra .menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 20px;
+    display: block;
+
+}
+
+#barra .menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+#barra .menu li a:hover{
+    background: black;
+    color: #fff;
+}
+
+#mercurio{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    font-size: 0.9em;
+
+
+    background-image:url("image/mercurio.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+
+}
+#mercurio h1{
+    color: white;
+    margin: 10px 10px 2px 30px;
+    font-size: 5em;
+    text-shadow: 2px 2px 10px rgb(49, 49, 161);
+}
+
+#mercurio h2{
+    color: white;
+    margin: 10px 10px 2px 30px;
+    text-shadow: 2px 2px 10px rgb(49, 49, 161);
+}
+
+#venus{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    font-size: 0.9em;
+
+
+    background-image:url("image/venus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 90vh;
+    width: 100%;
+
+}
+#venus h1{
+    color: white;
+    margin: 10px 10px 2px 30px;
+    font-size: 5em;
+    text-shadow: 2px 2px 10px rgb(49, 49, 161);
+}
+
+#venus h2{
+    color: white;
+    margin: 10px 10px 2px 30px;
+    text-shadow: 2px 2px 10px rgb(49, 49, 161);
+}
+
+#tierra{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    font-size: 0.9em;
+
+
+    background-image:url("image/TIERRA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+
+}
+#tierra h1{
+    color: white;
+    margin: 10px 10px 2px 30px;
+    font-size: 5em;
+    text-shadow: 2px 2px 10px rgb(49, 49, 161);
+}
+
+#tierra h2{
+    color: white;
+    margin: 10px 10px 2px 30px;
+    text-shadow: 2px 2px 10px rgb(49, 49, 161);
+}
+#marte{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    font-size: 0.9em;
+
+
+    background-image:url("image/marte.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    
+    }
+#marte h1{
+    color: white;
+    margin: 10px 10px 2px 30px;
+    font-size: 5em;
+    text-shadow: 2px 2px 10px rgb(49, 49, 161);
+    }
+    
+#marte h2{
+    color: white;
+    margin: 10px 10px 2px 30px;
+    text-shadow: 2px 2px 10px rgb(49, 49, 161);
+
+}
+#júpiter{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    font-size: 0.9em;
+
+
+    background-image:url("image/júpiter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    
+    }
+#júpiter h1{
+    color: white;
+    margin: 10px 10px 2px 30px;
+    font-size: 5em;
+    text-shadow: 2px 2px 10px rgb(49, 49, 161);
+    }
+    
+#júpiter h2{
+    color: white;
+    margin: 10px 10px 2px 30px;
+    text-shadow: 2px 2px 10px rgb(49, 49, 161);
+
+}
+#saturno{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    font-size: 0.9em;
+
+
+    background-image:url("image/saturno.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    
+    }
+#saturno h1{
+    color: white;
+    margin: 10px 10px 2px 30px;
+    font-size: 5em;
+    text-shadow: 2px 2px 10px rgb(49, 49, 161);
+    }
+    
+#saturno h2{
+    color: white;
+    margin: 10px 10px 2px 30px;
+    text-shadow: 2px 2px 10px rgb(49, 49, 161);
+
+}
+#urano{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    font-size: 0.9em;
+
+
+    background-image:url("image/urano.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    
+    }
+#urano h1{
+    color: white;
+    margin: 10px 10px 2px 30px;
+    font-size: 5em;
+    text-shadow: 2px 2px 10px rgb(49, 49, 161);
+    }
+    
+#urano h2{
+    color: white;
+    margin: 10px 10px 2px 30px;
+    text-shadow: 2px 2px 10px rgb(49, 49, 161);
+
+}
+
+footer {
+    background-color: rgb(30,30,30);
+}
+footer p{
+    margin: 0;
+    padding: 0px;
+    color: white;
+}
+footer main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+footer .icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50%;
+    transition: all .8s;
+    cursor: pointer;
+}
+
+footer .icon:hover {
+    background-color: #e60073;
+    box-shadow:  0 0 20px #e60073 ;
+}
+
+footer .icon:hover:nth-child(2) {
+    background-color: #1877f2;
+    box-shadow:  0 0 20px #1877f2;
+}
+
+footer .icon:hover:nth-child(3) {
+    background-color: #25d366;
+    box-shadow: 0 0 20px #25d366 ;
+}
+
+footer .icon:hover:nth-child(4) {
+    background-color: #1da1f2;
+    box-shadow:  0 0 20px #1da1f2 ;
+}
+
+footer .icon i {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.7rem;
+}
+
+footer svg circle {
+    stroke-dasharray: 150;
+    transition: all .8s ease-in-out;
+}
+
+footer .icon:hover circle {
+    stroke-dasharray: 220;
+}
